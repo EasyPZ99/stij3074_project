@@ -5,7 +5,6 @@ if (isset($_SESSION['sessionid']))
 {
     $useremail = $_SESSION['user_email'];
     $user_name = $_SESSION['user_name'];
-    $user_phone = $_SESSION['user_phone'];
 }else{
     echo "<script>alert('Please login or register')</script>";
     echo "<script> window.location.replace('login.php')</script>";
@@ -25,8 +24,8 @@ $data = array(
           'name' => $user_name,
           'amount' => ($amount + 1) * 100, // RM20
 		  'description' => 'Payment for order by '.$email,
-          'callback_url' => "http://slumberjer.com/mybookdepository/bookshop/php/return_url",
-          'redirect_url' => "http://slumberjer.com/mybookdepository/bookshop/php/payment_update.php?email=$email&amount=$amount" 
+          'callback_url' => "https://crimsonwebs.com/s271843/stij3074_project/webapp/php/return_url",
+          'redirect_url' => "https://crimsonwebs.com/s271843/stij3074_project/webapp/php/payment_update.php?email=$email&amount=$amount" 
 );
 
 $process = curl_init($host );
