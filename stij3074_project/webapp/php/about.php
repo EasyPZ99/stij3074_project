@@ -207,7 +207,7 @@ body, html {
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Return to the top</a>
   <div class="w3-xlarge w3-section">
   </div>
-  <p>Hak milik AFIRA HERBS & BEAUTY Sdn.Bhd</p>
+  <p>AFIRA HERBS & BEAUTY Enterprise</p>
 </footer>
  
 <script>
