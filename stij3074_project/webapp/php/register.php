@@ -123,7 +123,7 @@ function sendMail($email,$otp){
     <footer class="w3-row-padding w3-padding-32">
       <hr>
       </hr>
-      <p class="w3-center">AFIRA HERBS & BEAUTY Sdn.Bhd&reg;</p>
+      <p class="w3-center">AFIRA HERBS & BEAUTY Enterprise&reg;</p>
     </footer>
   </body>
 </html>
